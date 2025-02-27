@@ -12,7 +12,7 @@ import Login from './pages/Login';
 import PrivateRoute from './routes/PrivateRoute';
 
 function App() {
-  const [isAdmin, setIsAdmin] = useState(true);
+  const [isAdmin, setIsAdmin] = useState(false);
   return (
     <div className="App">
       <BareNav/>
